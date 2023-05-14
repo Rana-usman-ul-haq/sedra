@@ -640,6 +640,6 @@ contract ERC20 is Context, IERC20, IERC20Metadata {
 
 contract SEDRA is ERC20, Ownable {
     constructor() ERC20("SEDRA", "SEDR") {
-        _mint(msg.sender, 60000000000 * 10 ** decimals());
+        _mint(msg.sender, 59000000000 * 10 ** decimals());
     }
 }
